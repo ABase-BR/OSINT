@@ -42,7 +42,7 @@ Podemos realizar buscas usando um IP , dessa forma podemos saber a:
 - Serviços
 - Portas
 
-shodan-1.png
+![Shodan 1](https://i.imgur.com/y2agHa0.png)
 
 O próximo passo é conhecer os **operadores** , só que para isso é necessário criar uma conta , para usar esse tipo de filtro e obter mais informações.
 
@@ -80,31 +80,30 @@ Buscando por sistemas operacionais Windows:
 ```sh
 os:"Windows"
 ```
-shodan-5.png
+![Shodan 5](https://i.imgur.com/RaIBoCF.png)
 
 Podemos buscar por sistemas operacionais Linux:
 ```sh
 os:"Linux"
 ```
-shodan-6.png
+![Shodan 6](https://i.imgur.com/InbLWyC.png)
 
 ### Filtrando por determinada porta (port)
 Podemos buscar por informações sobre um grupo que usa a mesma porta , por exemplo uma buscar por **portas 3306** que são por padrão usadas por banco de dados:
 ```sh
  port:3386
 ```
-shodan-7.png
-
+![Shodan 7](https://i.imgur.com/MORvfSx.png)
 
 ### Trazendo informações de um IP (IP)
 Podemos buscar por um determinado IP da seguinte forma.
 ```sh
 ip:37.59.174.225
 ```
-shodan-8.png
+![Shodan 8](https://i.imgur.com/Nwc2E2N.png)
 
 Podemos ver informações detalhadas clicando em **details**:
-shodan-9.png
+![Shodan 9](https://i.imgur.com/6x055Gy.png)
 
 ### Trazendo informações de uma rede (NET)
 Podemos buscar informações de uma determinada rede , podemos usar o **operador**:
@@ -119,7 +118,7 @@ Vamos usar o **CIDR** da globo para buscar por servidores desssa rede:
 net:186.192.80.0/20
 ```
 
-shodan-2.png
+![Shodan 2](https://i.imgur.com/paxL1WY.png)
 
 ### Trazendo informações de um host (hostname)
 Podemos pesquisar por HOSTS , podemos usar o domínio para realizar esse teste e ter informações como por exemplo:
@@ -133,14 +132,14 @@ Veja um exemplo usando o facebook:
 ```sh
 hostname:facebook.com
 ```
-shodan-3.png
+![Shodan 3](https://i.imgur.com/vZp9qir.png)
 
 Podemos realizar outro exemplo usando o site da Globo.com
 ```sh
 hostname:globo.com
 ```
-shodan-4.png
 
+![Shodan 4](https://i.imgur.com/BZZEyUS.png)
 ### Buscando por dispositivos usando o (Server)
 Com o uso do **Server** podemos obter informações sobre câmeras , sistemas e até webcam.
 ```sh
@@ -148,13 +147,13 @@ Server: SQ-WEBCAM
 ```
 
 Podemos ver que temos 99 resultado , veja uma imagem:
-shodan-10.png
+![Shodan 10](https://i.imgur.com/JGpMzP4.png)
 
 Veja outro modelo de câmera
 ```Sh
 Server: U S Software Web Server
 ```
-shodan-11.png
+![Shodan 11](https://i.imgur.com/LOFz20G.png)
 
 ## Palavras chave
 Podemos buscando por caixas ATM no Brasil , tudo o que precisamos é usar a palavra **atm**.
@@ -163,7 +162,7 @@ Veja a união de uma palavra chave junto de um operador que filtra pais:
 ```sh
  atm country:br
 ```
-shodan-12.png
+![Shodan 12](https://i.imgur.com/yMuDOzd.png)
 
 ## Começando a usar Dorks
 Podemos unir o uso de **operadores** , palavras chaves e criar Dorks complexas para filtrar as nossas buscas
@@ -173,15 +172,14 @@ Dessa forma podemos buscar por câmeras que estejam localizadas no Brasil e na c
 ```sh
 camera country:br city:Bauru
 ```
-shodan-13.png
+![Shodan 13](https://i.imgur.com/gkEDZW2.png)
 
 ### Pesquisando sistemas operacionais
 Até o momento apenas 21 servidores windows foram identificados , isso não significa que só temos 21 servidores Windows funcionando na cidade e sim que apenas 21 foram indexados.
 ```sh
 os:"Windows" country:br city:Bauru
 ```
-shodan-14.png
-
+![Shodan 14](https://i.imgur.com/TXBjH9E.png)
 
 ## Shodan via linha de comando (CLI)
 > Esses exemplo foram testados em um sistema Linux - Debian Stretch.

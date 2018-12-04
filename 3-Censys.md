@@ -1,12 +1,12 @@
 ## O que é o Censys
 Censys que foi criado em 2015 na universidade de Michigan , ele nos auxilia na busca de dispositivos , redes e infraestruturas.
 
-censys-1.png
+![Censys 1](https://i.imgur.com/4OHE97L.png)
 
 **45 das Fortune 500 usa dados do Censys**.
 > Fortune 500 é uma revista que lista as 500 maiores corporações em todo o mundo.
 
-censys-2.png
+![Censys 2](https://i.imgur.com/adbIJGo.png)
 
 ## Como podemos usar o Censys
 Agora com a ajuda desse mecanismo de busca podemos encontrar facilmente informações como
@@ -21,7 +21,7 @@ Agora com a ajuda desse mecanismo de busca podemos encontrar facilmente informa�
 - Nome da rede  de sites e IPS.
 - Identifica
 
-censys-3.png
+![Censys 3](https://i.imgur.com/tmahhSn.png)
 
 E podemos obter essas informações sem estar logado no censys , podemos criar uma conta free e já começar a usar.
 
@@ -62,7 +62,7 @@ Ao pesquisar temos vários resultados de sites , o primeiro foi o que nos buscam
 - Report
 - Documentação
 
-censys-4.png
+![Censys 4](https://i.imgur.com/YIk4W6s.png)
 
 Ao selecionar o nosso site temos informações como
 - Alexa rank
@@ -75,7 +75,7 @@ Ao selecionar o nosso site temos informações como
 - Configurações de DNS
 
 Veja usando como exemplo o site da globo.com
-censys-5.png
+![Censys 5](https://i.imgur.com/yGrwWOl.png)
 
 Além disso essas informações podem ser nos formatos
 - JSON
@@ -87,4 +87,4 @@ Podemos ver informações sobre certificados usando o seguinte link
 https://censys.io/certificates?q=globo.com
 ```
 
-censys-6.png
+![Censys 6](https://i.imgur.com/LmMFHLl.png)

@@ -13,7 +13,7 @@ Veja o exemplo do facebook
 http://fatecbauru.edu.br/robots.txt
 ```
 
-robots.txt.png
+![Robots.txt](https://i.imgur.com/ZtQb5Wb.png)
 
 Vamos realizar um teste agora em um grande site como o facebook para ver as diferenças
 ```sh

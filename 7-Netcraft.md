@@ -20,11 +20,11 @@ Podemos buscar informações sobre
 
 
 Veja um exemplo buscando informações sobre o Google
-netcraft-01.png
+![Netcraft](https://i.imgur.com/bTUwhUm.png)
 
 
 No resultado podemos encontrar diversos subdomínios , sistema operacional usado e até informações sobre o bloco de rede que nesse caso é de responsabilidade da Google.
-netcraft-02.png
+![Netcraft 2](https://i.imgur.com/DoY1t6P.png)
 
 Podemos testar também através do link a baixo:
 ```sh

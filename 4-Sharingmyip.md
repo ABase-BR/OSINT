@@ -14,7 +14,7 @@ Além do preço baixo veja alguns benefícios:
 ## O que é Sharingmyip
 SharingMyIP é um site onde podemos realizar consultas em um determinado domínio/subdomínio , dessa forma podemos saber possíveis sites que compartilham o mesmo IP que o site testado e assim podemos encontrar subdomínios , IPS e até sites que não imaginávamos que fizesse parte.
 
-sharingmyip-1.png
+![SharingMyIP](https://i.imgur.com/CWJ7PCs.png)
 
 ## Realizando primeiro teste (Globo.com)
 Vamos realizar o primeiro teste usando o domínio **globo.com** , podemos ver a imagem a baixo seguido dos resultados:
@@ -23,7 +23,7 @@ Vamos realizar o primeiro teste usando o domínio **globo.com** , podemos ver a 
 - Mail server
 - Entradas de DNS relacionadas
 
-sharingmyip-2.png
+![SharingMyIP](https://i.imgur.com/J5wpWsp.png)
 
 Na parte site com o mesmo IP temos uma lista com alguns sites , veja
 ```sh

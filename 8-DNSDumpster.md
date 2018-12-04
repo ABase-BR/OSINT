@@ -7,16 +7,16 @@ DNSDumpster nos ajuda no
 - Localização
 - Registros de DNS
 
-dnsdumpster-1.png
+![DNSDumpster 1](https://i.imgur.com/ALy0k0W.png)
 
 Podemos buscar por hosts relacionados a um domínio , que vai nos retornar informações interessantes como
 - DNS Servers
 - MX Records
 - Host Records A
 
-dnsdumpster-2.png
+![DNSDumpster 2](https://i.imgur.com/ifoeY5M.png)
 
 Podemos ver um mapa com as informações obtidas sobre o domínio
 
 sobre uma infraestrutura podemos usar o DNSDumpster .
-dnsdumpster-3.png
+![DNSDumpster 3](https://i.imgur.com/dM0YR6O.png)

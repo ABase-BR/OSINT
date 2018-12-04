@@ -14,7 +14,8 @@ Por exemplo , podemos procurar por sites que contenham links para arquivos Micro
 ```sh
 rap contains:wma
 ```
-bing-contains-1.png
+
+![Bing](https://imgur.com/a/uTp5eTW)
 
 Podemos ver o resultado marcado que fica no seguinte link:
 ```sh

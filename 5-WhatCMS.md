@@ -14,20 +14,20 @@ Temos alguns CMS como:
 Podemos verificar o CMS usado usando o WhatCMS , com ele podemos verificar usando uma fonte publica para verificar se é um Wordpress e sem nós interagir diretamente com o site que está sendo verificado. O WhatCMS é um exemplo de ferramenta que pode nos auxiliar , ele foi lançado em Dezembro de 2011 , inicialmente só conseguia reconhecer os principais CMS e hoje ele consegue reconhecer mas de 422 CMS's.
 
 Atualmente esse é como o site é , não precisamos realizar cadastrado para realizar testes e verificar sites.
-whatcms-1.png
+![WhatCMS](https://i.imgur.com/k8niKRM.png)
 
 Vou realizar um teste em um forum , veja o resultado **IPS community suite**.
-whatcms-2.png
+![WhatCMS](https://i.imgur.com/hZtF0Ve.png)
 
 Agora vou realizar outro teste em um blog , podemos ver que o resultado é o Wordpress e a sua versão.
-whatcms-3.png
+![WhatCMS](https://i.imgur.com/kZunYJ2.png)
 
 Já podemos ver outro exemplo que ele retorna qual CMS está usando , só que não é retornado a sua versão e quanto mais informações nós sabermos do alvo melhor.
-whatcms-4.png
+![WhatCMS](https://i.imgur.com/3xnwKpE.png)
 
 ## Os sistemas mais populares
 Podemos ver quais são os sistemas mais usados , veja um gráfico listando os top 10:
-whatcms-5.png
+![WhatCMS](https://i.imgur.com/cymoPd1.png)
 
 Além de poder ver todos os 422 sistemas no seguinte link:
 ```sh
