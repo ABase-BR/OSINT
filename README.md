@@ -1,7 +1,7 @@
 # OSINT - Open Source Intelligence
 
 ## Game Game
-Planejei um joguinho para o pessoal execitar o que foi compartilhado e que pode ser acesso em
+Planejei um joguinho para o pessoal exercitar o que foi compartilhado e que pode ser acesso em
 ```sh
 https://ctf-osint.aplicativos.org
 ```
